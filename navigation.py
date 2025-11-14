@@ -169,7 +169,7 @@ def wave_propagation_search(start_lat: float, start_lon: float,
     distance_map: Dict[Tuple[int, int], int] = {end_grid: 0}
     
     iteration = 0
-    max_iterations = 100000  # 안전장치
+    max_iterations = 1000000  # 안전장치
     
     print("\nPropagating wave from destination...")
     

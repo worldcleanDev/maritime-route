@@ -49,6 +49,7 @@ cache/
 # Result/test files
 result*.js
 *.kml
+route_*.geojson
 route_*.kml
 
 # OS

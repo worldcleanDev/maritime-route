@@ -65,7 +65,7 @@ class LandPolygonChecker:
     def _get_default_data_path(self) -> str:
         """기본 데이터 경로 반환"""
         current_dir = Path(__file__).parent
-        data_dir = current_dir / "land-polygons-split"
+        data_dir = current_dir / "data" / "land-polygons-split"
         return str(data_dir / "land_polygons.shp")
     
     def _get_cache_path(self, bbox: Tuple[float, float, float, float]) -> Path:
